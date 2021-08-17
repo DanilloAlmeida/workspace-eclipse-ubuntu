@@ -6,8 +6,7 @@ public class Gerente extends Funcionario{
 	
 	public void setSenha(int senha) {
 		this.senha = senha;
-	}
-	
+	}	
 	
 	public boolean autenctica(int senha) {
 		if(this.senha == senha) {
@@ -15,5 +14,9 @@ public class Gerente extends Funcionario{
 		} else {
 			return false;
 		}
+	}
+	
+	public double getBonificacao() {
+		return super.salario;
 	}
 }

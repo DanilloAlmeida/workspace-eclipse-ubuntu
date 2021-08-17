@@ -15,13 +15,12 @@ public class TestaFuncionario {
 		
 		System.out.println("Nome.......: "+nico.getNome());
 		System.out.println("CPF........: "+nico.getCpf());
-		System.out.println("Sal√°rio....: "+nico.getSalrario());
-		System.out.println("Bonifica√ß√£o: "+nico.getBonificacao());		
-		
+		System.out.println("Sal·rio....: "+nico.getSalrario());
+		System.out.println("BonificaÁ„o: "+nico.getBonificacao());		
+		System.out.println("\n\n");
 		System.out.println("Nome.......: "  +gerente.getNome());
 		System.out.println("CPF........: "  +gerente.getCpf());
-		System.out.println("Sal√°rio....: " +gerente.getSalrario());
-		System.out.println("Bonifica√ß√£o: "+gerente.getBonificacao());
-		System.out.println("Bonifica√ß√£o: "+gerente.getBonificacao());
+		System.out.println("Sal·rio....: " +gerente.getSalrario());
+		System.out.println("BonificaÁ„o: "+gerente.getBonificacao());
 	}
 }
